@@ -13,17 +13,16 @@
 ActiveRecord::Schema.define(version: 2021_01_06_233447) do
 
   create_table "cards", force: :cascade do |t|
-    t.string "type"
+    t.string "card_type"
     t.string "img_one"
     t.string "img_two"
     t.string "img_three"
     t.string "img_four"
     t.string "description"
-    t.string "specs"
     t.string "price"
     t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.string "specs"
+    t.string "fields"
   end
 
 end
