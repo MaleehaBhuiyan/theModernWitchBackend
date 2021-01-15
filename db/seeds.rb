@@ -9,7 +9,7 @@
 # CARD OUTLINE
 
 # card1 = Card.create(
-#     type:'',
+#     card_type:'',
 #     img_one:'',
 #     img_two:'',
 #     img_three:'',
@@ -17,7 +17,8 @@
 #     description:'',
 #     specs:'',
 #     price:,
-#     name:''
+#     name:'',
+#     fields:''
 # )
 
 
@@ -155,4 +156,138 @@ card10 = Card.create(
     price:21.95,
     name:'Crystal Visions Tarot',
     fields:'Crystal Visions Tarot Feminist'
+)
+
+card11 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Sun_and_Moon_in_a_Tin_4000x@2x.progressive.png?v=1560306680',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Sun_and_Moon_in_a_Tin_the_Queen_of_Pentacles_4000x@2x.progressive.jpg?v=1560306680',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Sun_and_Moon_in_a_Tin_the_Prince_4000x@2x.progressive.jpg?v=1560306680',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Sun_and_Moon_in_a_Tin_the_Chariot_4000x@2x.progressive.jpg?v=1560306680',
+    description:"By playfully incorporating mythology and astrology, Vanessa Decort brings unique interpretations to traditional tarot, presenting a deck that is both insightful and accessible. The Sun and Moon Tarot follows the traditional structure of Crowley Thoth Tarot. The Minor Arcana features Crowley’s key words at the top of the cards, with the card titles and numbering at the bottom. Major Arcana cards show the associated Hebrew letter in the artwork. Sun and Moon Tarot is a multi-cultural tarot deck with symbolism borrowed from Hinduism, yoga, ancient Egyptian and classical Greek mythology, the I Ching, and Runes. The instruction booklet includes astrological associations and explanation of the Hebrew letters, as well as the card interpretations. This pocket-sized deck, presented in a tin, features the black borders originally designed by the artist.",
+    specs:'Author Vanessa Decort; Artist Vanessa Decort; Tin measures 2.625" x 4.125"; Cards measure 2.75" x 4.75',
+    price: 18.00,
+    name:'Sun and Moon in a Tin',
+    fields:'Sun and Moon in a Tin Tarot Astrological'
+)
+
+card12 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Cover_4000x@2x.progressive.jpg?v=1590892354',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/TheGoddessTarotBeginnings_4000x@2x.progressive.jpg?v=1590892357',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/TheGoddessTarotMagic_4000x@2x.progressive.jpg?v=1590892367',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/TheGoddessTarotAceofPentacles_4000x@2x.progressive.jpg?v=1590892345',
+    description:"The Goddess Tarot uses goddess stories and imagery to update traditional tarot symbolism, addressing women's contemporary needs. Described on Aeclectic Tarot as 'possibly the most beautiful tarot deck ever to be created' Goddess Tarot is ornately illustrated with evocative details that bring tarot to life in new ways.
+
+    Each card in the Major Arcana depicts the story of a different goddess. Each suit in the Minor Arcana corresponds to one of the four elements -- earth, air, water, and fire -- as well as to a particular goddess. The suit of cups is associated with Venus, the Roman goddess of love. The suit of swords relates to Isis, the Egyptian goddess of magic and redemption. Pentacles portray Lakshmi, the Hindu goddess of prosperity, and the suit of staves depict Freyja, the Norse goddess of creativity. Artist and author Kris Waldherr also provides a beautifully written instruction booklet to help you get the most out of The Goddess Tarot.",
+    specs:'78 Cards measure 3.5" x 4.75; Artist Kris Waldher; 208-page illustrated book; full-color spread sheet.',
+    price: 31.30,
+    name:'The Goddess Tarot Deck and Book Set',
+    fields:'The Goddess Tarot Deck and Book Set Feminist'
+)
+
+card13 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Forest_of_Enchantment_Tarot_box_4000x@2x.progressive.jpg?v=1570579502',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Forest_of_Enchantment_Tarot_Seven_of_Boons_4000x@2x.progressive.jpg?v=1570579403',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Forest_of_Enchantment_Tarot_Keeper_of_Challenges_4000x@2x.progressive.jpg?v=1570579335',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Forest_of_Enchantment_Tarot_Three_of_Spells_4000x@2x.progressive.jpg?v=1570579479',
+    description:'Once you step into the enchanted wood, your life—and your spirit—will never be the same. The forest is alive with magic: wise ancient trees, glowing blossoms, crystal caves, and forbidding thickets of thorns. Here you will meet witches and wizards, faeries and elves, birds and beasts both earthly and otherworldly, ghosts and shape-shifters, dancing princesses and sad old knights. As you wend your way along the twisting woodland paths, finding adventure at every turn, the old tales come to life. In the Forest of Enchantment, you may seek your fortune, quest for success, and live happily ever after.',
+    specs:'By: Lunaea Weatherstone and Meraylah Allwood; Boxed Kit; 78 Card Deck; Cards Measure  4 1/2 X 2 3/4; 240 page full color guidebook',
+    price: 28.49,
+    name:'Forest of Enchantment Tarot',
+    fields:'Forest of Enchantment Tarot Magic'
+)
+
+card14 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/IAT80-box_4000x@2x.progressive.jpg?v=1553350332',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/IAT80-23_4000x@2x.progressive.jpg?v=1553350332',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/IAT80-9_4000x@2x.progressive.jpg?v=1553350332',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/IAT80-10_4000x@2x.progressive.jpg?v=1553350332',
+    description:'Angels’ spiritual influence over human experience is beautifully portrayed in this gilt-edge deck through classic inspired artwork. The 184-page illustrated guidebook features in-depth descriptions, symbolism and angelic messages. In addition to the 78 tarot cards, two reference cards are included in this glorious set presented in a deluxe box with gold foil accents.',
+    specs:'Size 80 cards, 3” x 5”; Box, 3.25" x 5.2"; Language EN; Author Jody Boginski Barbessi with Karen Boginski',
+    price: 25.60,
+    name:'Influence Of The Angels Tarot',
+    fields:'Influence Of The Angels Tarot Angels'
+)
+
+card15 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/wildwood_tarot_box_4000x@2x.progressive.jpg?v=1575915795',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/The_Wildwood_Tarot_King_of_Stones_4000x@2x.progressive.jpg?v=1575915837',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/The_Wildwood_Tarot_Knight_of_Bows_4000x@2x.progressive.jpg?v=1575915820',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/The_Wildwood_Tarot_Pae_of_Arrows_4000x@2x.progressive.jpg?v=1575915803',
+    description:"Look to the heart of a primeval forest where deep ancestral wisdom lies to help make sense of your world today. Based on seasonal rhythms and ancient festivals, The Wildwood Tarot gift set draws inspiration from pre-Celtic mythology and shamanic mysteries. This stunning new tarot card deck introduces us to classic forest archetypes—including the Green Man and Woman, Archer, and Blasted Oak--and explains how to use them as a meditation system, divinatory oracle, or reference. Will Worthington's powerful pagan images connect us with a long-lost world that can help us make sense of our own. So step back in time and you'll better understand where your life’s path may lead.",
+    specs:'Card Book: 160 pages; Creators Will Worthington and John Matthews; Product Dimensions: 6.2 x 1.3 x 8.5 inches',
+    price: 19.95,
+    name:'The Wildwood Tarot',
+    fields:'The Wildwood Tarot Animals'
+)
+
+card16 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Zillich_Tarot_in_a_Tin_4000x@2x.progressive.png?v=1560306683',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Zillich_Tarot_in_a_Tin_the_Fool_4000x@2x.progressive.jpg?v=1560306683',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Zillich_Tarot_in_a_Tin_Ace_of_Cups_4000x@2x.progressive.jpg?v=1560306683',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Zillich_Tarot_in_a_Tin_Eight_of_Disks_4000x@2x.progressive.jpg?v=1560306683',
+    description:'German watercolor artist Christine Zillich has created an intriguing Thoth-style tarot deck. This contemporary pocket-sized deck is packed with powerful imagery.  Beneath the colorful surface are layers of meaning and archetypal symbolism through which Zillich Tarot visually explores mythological and astrological influences. The cards in this 78-card deck present Thoth keywords as well as kabbalistic signs. In the 60-page booklet Johan Von Kirschner explains the symbolism and meaning of each card.',
+    specs:'Author Christine Zillich; Artist Johan von Kirschner; Size Tin 2.75” x 4.125”; 78 Cards 2.30” x 3.70”',
+    price: 18.95,
+    name:'Zillich Tarot in a Tin',
+    fields:'Zillich Tarot in a Tin Astrological'
+)
+
+card17 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/MOdern_Witch_Tarot_Box_4000x@2x.progressive.jpg?v=1574070531',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Modern_Witch_Tarot_Strength_4000x@2x.progressive.jpg?v=1574070504',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/MOdern_Witch_Tarot_Chariot_4000x@2x.progressive.jpg?v=1574070492',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Modern_Witch_Tarot_Death_4000x@2x.progressive.jpg?v=1574070508',
+    description:'Find a path to your best self with this fantastically inclusive feminist deck. Lisa Sterle pulls off an amazing feat by merging the symbolism of the traditional Rider-Waite-Smith deck with youthful, stylish characters and items from our modern lives. With its diversity and all-female celebration of womanhood, this vibrant, fashion-forward, and colorful deck brings fun and fresh air to the tarot!',
+    specs:'Product Dimensions: 3.5 x 2.5 x 5 inches; 78 Card Tarot Deck; Instruction booklet; Sturdy Keepsake box',
+    price: 25.16,
+    name:'Modern Witch Tarot',
+    fields:'Modern Witch Tarot Feminist'
+)
+
+card18 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/JDV78_8_4000x@2x.progressive.jpg?v=1553348732',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/TheWorld_4000x@2x.progressive.jpg?v=1553983797',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/KingWands_4000x@2x.progressive.jpg?v=1553983823',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/SixCups_4000x@2x.progressive.jpg?v=1553983849',
+    description:'Popular tarot artist Paulina Cassidy has filled both the Minor and Major Arcana with charming new characters that bring their inspirational messages of joy to everyone. Those who take a journey through this wondrous realm will rediscover their own child-like spirit.',
+    specs:'Cards measure 2.75" x 4.75"; Language EN; Author Paulina Cassidy; Artist Paulina Cassidy',
+    price:20.85,
+    name:'Joie de Vivre Tarot',
+    fields:'Joie de Vivre Tarot Magic'
+)
+
+card19 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Tarot_of_the_Angels_4000x@2x.progressive.jpg?v=1563178839',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Tarot_of_the_Angels_The_Magician_4000x@2x.progressive.jpg?v=1563178839',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Tarot_of_the_Angels_7_of_Pentacles_4000x@2x.progressive.jpg?v=1563178839',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/Tarot_of_the_Angels_Justice_4000x@2x.progressive.jpg?v=1563178839',
+    description:'Famous Tarot Author  Giordano Berti and artist Arturo Picca team up to bring you the beautiful and profound Tarot of the Angels.  Here the Angels are our messengers bringing us messages and insights to help us solve problems with reason and love.  The Cards work well as a “Card a Day” reflection tool but they also follow the Rider Waite Smith tradition and can be used effectively in Tarot spreads. A perennial favorite since 2007.',
+    specs:'Size 3 x 5 x 1 IN; 78 Cards; Companion booklet; Creators Giordano Berti and Arturo Picca',
+    price: 22.75,
+    name:'Tarot of the Angels',
+    fields:'Tarot of the Angels'
+)
+
+card20 = Card.create(
+    card_type:'tarot',
+    img_one:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/spiritsong1_grande_43d476b0-5db2-40f2-8583-c86817a11b31_4000x@2x.progressive.jpg?v=1553350152',
+    img_two:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/spiritsong3_grande_5f1d186b-d98b-4345-ad8c-b898d0093a13_4000x@2x.progressive.jpg?v=1553350152',
+    img_three:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/spiritsong4_grande_0739d42d-c662-4c55-91b4-74256dc9b696_4000x@2x.progressive.jpg?v=1553350152',
+    img_four:'https://cdn.shopify.com/s/files/1/0045/5865/1465/products/KnightShells_4000x@2x.progressive.jpg?v=1553849187',
+    description:'This Spiritsong deck is a melding of two traditions of divination: one in which animals are seen as guides between our world and the spirit world, and one that uses 78 cards as a tool to connect with our highest self. Each animal was specifically selected based upon Shamanic and Native American symbolism, merging each animal’s unique power with classic tarot practices. For example, the Spiritsong animal, Raven, has attributes such as ‘creation’ that parallels some of the same symbolic tarot attributes of the traditional Magician card, which is why the Raven is the animal representing that card.
+
+    The Spiritsong Tarot structure is based on the traditional tarot, containing the 22 Majors, the 56 Minors, and four suits: Acorns for Wands/Fire; Feathers for Swords/Air; Shells for Cups/Water; and Crystals for Pentacles/Earth.',
+    specs:'78 cards; 108-page guidebook; Box Size 3.5" x 5.5"; Card Size 3" x 5"; Language EN; Creator Paulina Cassidy',
+    price: 20.85,
+    name:'Spiritsong Tarot',
+    fields:'Spiritsong Tarot Animals'
 )
